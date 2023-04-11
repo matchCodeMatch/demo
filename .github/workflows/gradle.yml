@@ -17,4 +17,4 @@ jobs:
           distribution: 'adopt'
       - name: Build with Gradle
         run:  gradle wrapper
-              ./gradlew build --scan
+              ../gradlew build --scan
