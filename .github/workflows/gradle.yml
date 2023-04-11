@@ -16,5 +16,4 @@ jobs:
           java-version: 11
           distribution: 'adopt'
       - name: Build with Gradle
-        run:  gradle wrapper
-              ../gradlew build --scan
+        run: ./gradlew build --scan
